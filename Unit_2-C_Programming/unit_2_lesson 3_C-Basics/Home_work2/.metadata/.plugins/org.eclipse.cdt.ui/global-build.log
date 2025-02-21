@@ -1,0 +1,206 @@
+Info: Nothing to build for 1
+Info: Nothing to build for 1
+Info: Nothing to build for 1
+Info: Nothing to build for 1
+17:53:31 **** Incremental Build of configuration Debug for project 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o 1.exe EX1.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 1
+Info: Nothing to build for 1
+18:02:06 **** Rebuild of configuration Debug for project 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o 2.exe EX2.o 
+Info: Nothing to build for 2
+Info: Nothing to build for 2
+Info: Nothing to build for 2
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+18:07:50 **** Rebuild of configuration Debug for project 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+..\EX3.c: In function 'main':
+..\EX3.c:10:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Largest number = %d",x);
+                             ^
+..\EX3.c:14:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Largest number = %d",y);
+                             ^
+..\EX3.c:18:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("Largest number = %d",z);
+                             ^
+gcc -o 3.exe EX3.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+18:08:05 **** Incremental Build of configuration Debug for project 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o 3.exe EX3.o 
+Info: Nothing to build for 3
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+18:15:08 **** Rebuild of configuration Debug for project 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+gcc -o 4.exe EX4.o 
+Info: Nothing to build for 4
+Info: Nothing to build for 4
+Info: Nothing to build for 4
+Info: Nothing to build for 4
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+18:24:18 **** Rebuild of configuration Debug for project 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX5.o "..\\EX5.c" 
+gcc -o 5.exe EX5.o 
+Info: Nothing to build for 5
+Info: Nothing to build for 5
+Info: Nothing to build for 5
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:29:06 **** Rebuild of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 6
+18:29:54 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:36:43 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 6
+Info: Nothing to build for 6
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:37:45 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:37:58 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -o 6.exe EX6.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:38:39 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file 6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:42:46 **** Rebuild of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 6
+Info: Nothing to build for 6
+18:43:49 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+18:44:21 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+18:46:12 **** Rebuild of configuration Debug for project 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX7.o "..\\EX7.c" 
+gcc -o 7.exe EX7.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+18:47:56 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 7
+Info: Nothing to build for 6
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+Info: Nothing to build for 7
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+Info: Nothing to build for 7
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+18:50:15 **** Incremental Build of configuration Debug for project 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX7.o "..\\EX7.c" 
+gcc -o 7.exe EX7.o 
+Info: Nothing to build for 7
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+Info: Nothing to build for 7
+18:58:35 **** Rebuild of configuration Debug for project 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX8.o "..\\EX8.c" 
+..\EX8.c: In function 'main':
+..\EX8.c:10:2: error: expected ';' before 'fflush'
+  fflush(stdout);
+  ^~~~~~
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+Info: Nothing to build for 7
+18:58:54 **** Incremental Build of configuration Debug for project 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX8.o "..\\EX8.c" 
+gcc -o 8.exe EX8.o 
+Info: Nothing to build for 8

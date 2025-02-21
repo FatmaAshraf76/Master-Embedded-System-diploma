@@ -1,0 +1,10 @@
+01:12:36 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe EX1.o EX2.o 
+EX2.o: In function `main':
+D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX2.c:3: multiple definition of `main'
+EX1.o:D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX1.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+01:12:37 Build Failed. 2 errors, 0 warnings. (took 799ms)
+

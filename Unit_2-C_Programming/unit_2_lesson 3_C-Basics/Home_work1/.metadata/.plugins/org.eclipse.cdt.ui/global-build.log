@@ -1,0 +1,125 @@
+01:03:56 **** Rebuild of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o assignment1.exe EX1.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+01:11:53 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o assignment1.exe EX1.o EX2.o 
+EX2.o: In function `main':
+D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX2.c:3: multiple definition of `main'
+EX1.o:D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX1.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+01:12:36 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe EX1.o EX2.o 
+EX2.o: In function `main':
+D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX2.c:3: multiple definition of `main'
+EX1.o:D:\fatma\learn in depth\assignment1\assignment1\Debug/../EX1.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+01:15:33 **** Rebuild of configuration Debug for project 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX1.o "..\\EX1.c" 
+gcc -o 1.exe EX1.o 
+01:15:34 **** Rebuild of configuration Debug for project 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o 2.exe EX2.o 
+Info: Nothing to build for 2
+Info: Nothing to build for 2
+01:18:54 **** Incremental Build of configuration Debug for project 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX2.o "..\\EX2.c" 
+gcc -o 2.exe EX2.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+01:23:15 **** Rebuild of configuration Debug for project 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX3.o "..\\EX3.c" 
+gcc -o 3.exe EX3.o 
+Info: Nothing to build for 2
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 3
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+01:27:52 **** Rebuild of configuration Debug for project 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+..\EX4.c: In function 'main':
+..\EX4.c:7:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %d",&x,&y);
+          ^
+..\EX4.c:7:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d %d",&x,&y);
+             ^
+..\EX4.c:8:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nProduct: %d",x*y);
+                      ^
+gcc -o 4.exe EX4.o 
+Info: Nothing to build for 4
+01:28:27 **** Incremental Build of configuration Debug for project 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX4.o "..\\EX4.c" 
+gcc -o 4.exe EX4.o 
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+01:32:37 **** Rebuild of configuration Debug for project 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX5.o "..\\EX5.c" 
+gcc -o 5.exe EX5.o 
+Info: Nothing to build for 5
+Info: Nothing to build for 5
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+01:39:35 **** Rebuild of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+Info: Nothing to build for 6
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+01:49:40 **** Incremental Build of configuration Debug for project 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX6.o "..\\EX6.c" 
+gcc -o 6.exe EX6.o 
+01:49:41 **** Rebuild of configuration Debug for project 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX7.o "..\\EX7.c" 
+..\EX7.c: In function 'main':
+..\EX7.c:7:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&a);
+          ^
+..\EX7.c:10:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&b);
+          ^
+..\EX7.c:14:54: error: 'x' undeclared (first use in this function)
+  printf("\nAfter swapping the value of x & y: %d %d",x,y);
+                                                      ^
+..\EX7.c:14:54: note: each undeclared identifier is reported only once for each function it appears in
+..\EX7.c:14:56: error: 'y' undeclared (first use in this function)
+  printf("\nAfter swapping the value of x & y: %d %d",x,y);
+                                                        ^
+Info: Nothing to build for 1
+Info: Nothing to build for 2
+Info: Nothing to build for 3
+Info: Nothing to build for 4
+Info: Nothing to build for 5
+Info: Nothing to build for 6
+01:50:20 **** Incremental Build of configuration Debug for project 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX7.o "..\\EX7.c" 
+gcc -o 7.exe EX7.o 
+Info: Nothing to build for 7
+Info: Nothing to build for 7

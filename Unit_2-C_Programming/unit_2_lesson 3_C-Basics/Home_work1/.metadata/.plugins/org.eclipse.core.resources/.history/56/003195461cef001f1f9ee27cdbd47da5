@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void)
+{
+	int a,b;
+	printf("Enter value of a: ");
+	fflush(stdout);
+	scanf("%f",&a);
+	printf("Enter value of b: ");
+	fflush(stdout);
+	scanf("%f",&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("\nAfter swapping the value of x & y: %d %d",x,y);
+	return 0;
+}
+
