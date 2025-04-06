@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int x=1;
+	int arr[5]={1,2,3};
+	switch(x)
+	{
+	case arr[0]:printf("%d",0);break;
+	case arr[1]:printf("%d",1);break;
+	case arr[2]:printf("%d",2);break;
+	}
+
+	return 0;
+}

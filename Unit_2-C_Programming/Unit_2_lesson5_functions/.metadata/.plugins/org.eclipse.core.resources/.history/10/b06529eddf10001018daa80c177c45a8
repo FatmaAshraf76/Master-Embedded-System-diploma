@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void prime(int first, int last)
+{
+	int n,i;
+	for(n=first;n<=last;n++)
+	{
+		for(i=0;i<100;i++)
+		{
+			if(n%i!=0)
+			{
+				printf("%d",n);
+				break;
+			}
+		}
+	}
+}
+int main(void)
+{
+	int x,y;
+	printf("Enter two numbers (intervals): ");
+	fflush(stdout);
+	scanf("%d %d",&x,&y);
+	prime(x,y);
+}

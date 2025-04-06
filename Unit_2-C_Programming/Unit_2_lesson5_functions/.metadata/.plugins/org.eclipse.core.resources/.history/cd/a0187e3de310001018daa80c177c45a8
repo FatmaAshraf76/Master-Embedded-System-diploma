@@ -1,0 +1,24 @@
+#include <stdio.h>
+void power(int num,int p)
+{
+    int i ,res=1;
+    printf("% power %d is: ",num,p);
+    for (i=0; i<p; i++)
+    {
+        res*=num;
+    }
+    printf("%d ",res);
+}
+int main(void)
+{
+	int num,p;
+	printf("Enter base number: ");
+	fflush(stdout);
+	scanf("%d",&num);
+	fflush(stdout);
+	printf("Enter power number: ");
+	fflush(stdout);
+	scanf("%d",&p);
+	power(num,p);
+}
+

@@ -1,0 +1,10 @@
+#include <stdio.h>
+int i;
+int main(void)
+{
+	if(i)
+	printf("if");
+	else
+		printf("else");
+	return 0;
+}
