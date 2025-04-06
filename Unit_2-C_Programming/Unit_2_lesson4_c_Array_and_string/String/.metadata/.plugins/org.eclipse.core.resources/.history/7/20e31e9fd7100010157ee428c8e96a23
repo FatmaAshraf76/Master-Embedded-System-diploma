@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+    char str[100];
+    char rev[100];
+    int  i;
+
+    printf("Enter a string: ");
+    fflush(stdout);
+    gets(str);
+    printf("the orignal text: %s ",str);
+    int s;
+    s=strlen(str)
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        rev[s-i-1]=str[i];
+    }
+    printf("the reversed text: %s ",rev);
+    return 0;
+}
