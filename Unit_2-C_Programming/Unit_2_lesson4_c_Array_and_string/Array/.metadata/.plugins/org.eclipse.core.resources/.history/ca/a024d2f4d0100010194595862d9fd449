@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int main(void) {
+    int n, i, x, y;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    int a[n], b[n + 1];
+
+    printf("Enter %d elements:\n", n);
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    printf("Enter the element to be inserted: ");
+    scanf("%d", &x);
+
+    printf("Enter the location (1-based index): ");
+    scanf("%d", &y);
+
+    // التحقق من أن الموقع المدخل صحيح
+    if (y < 1 || y > n + 1) {
+        printf("Invalid position!\n");
+        return 1;
+    }
+
+    // نسخ العناصر حتى الموقع الجديد
+    for (i = 0; i < y - 1; i++) {
+        b[i] = a[i];
+    }
+
+    // إدراج العنصر الجديد
+    b[y - 1] = x;
+
+    // نسخ بقية العناصر
+    for (i = y; i < n + 1; i++) {
+        b[i] = a[i - 1];
+    }
+
+    // طباعة المصفوفة الجديدة
+    printf("Array after insertion: ");
+    for (i = 0; i < n + 1; i++) {
+        printf("%d ", b[i]);
+    }
+
+    printf("\n");
+    return 0;
+}
